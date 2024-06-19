@@ -1,3 +1,60 @@
-.yellow{
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;600&family=Texturina:ital,wght@0,700;0,900;1,100&display=swap');
+
+*{
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body{
+    font-family: 'Dosis', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, em, footer p{
+    font-family: 'Texturina', serif;
+}
+
+.myBtn {
+    border-color: #ff9800;
     color: orange;
+    background-color: #212529;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.myInput {
+    border-radius: none; 
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+/*
+    ******************** Img ********************
+*/
+.img{
+    background-image: url(../img/banner-buisnessman.jpg);
+    height: 711px;
+}
+
+.img div q:first-of-type{
+    font-size: 5em;
+    overflow-y: hidden;
+}
+
+.img div q:last-of-type{
+    font-size: 1.8em;
+}
+
+.fas.fa-chevron-down{
+    font-size: 500%;
+}
+.card img{
+    height: 400px;
+}
+
+.employee img {
+    width: 100%;
+}
+
+#myA {
+    text-align: end;
 }
